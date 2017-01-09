@@ -1,0 +1,15 @@
+tIot
+Control
+	•	Fan 1
+	•	Fan 2
+	•	Lamp 1
+	•	Lamp 2
+	•	String Lights
+	•	Chargers
+	•	Plug 1
+	•	Plug 2
+Learn
+	•	Temperature
+	•	Humidity
+	•	Image
+	•	Relay Status
