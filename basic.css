@@ -1,0 +1,91 @@
+body{
+  padding: 0;
+  margin: 0;
+  background: lightblue;
+}
+
+*{ font-family: helvetica, sans serif; 
+}
+
+.header{
+  height: auto;
+  #position: ;
+  text-align: center; 
+  padding: 10px;
+  margin: 10px;
+  z-index: 1000;
+}
+
+h1, h2{
+  color: darkblue;
+  text-align: center;
+}
+
+
+.control {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  height: auto;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  position: relative;
+  left: 0;
+  z-index: 999;
+}
+
+.control ul {
+  width: 100%;
+  padding: 0;
+}
+
+li {
+  color: #666666;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin: 20px;
+  padding: 20px;
+  text-transform: uppercase;
+  width: 150px;
+  height: auto;
+  border: 1px solid #666666;
+  border-radius: 5px;
+}
+li:hover{
+  background-color: lightblue;
+  color: #666666;
+  border: 1px solid lightblue;
+  border-radius: 5px;
+}
+li:toggle{
+  background-color: #666666;
+  color: lightblue;
+  border: 1px solid #666666;
+  border-radius: 5px;
+}
+.monitor {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  height: auto;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  position: relative;
+  top: 10;
+  left: 0;
+  z-index: 999;
+}
+.monitor ul {
+  width: 100%;
+  padding: 0;
+}
+.active{
+  background-color: #666666;
+  color: lightblue;
+  border: 1px solid #666666;
+  border-radius: 5px;
+}
+
